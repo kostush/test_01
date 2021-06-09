@@ -46,6 +46,5 @@ class UpdateCurrencyRate extends Command
     public function handle(CurrencyExchangeController $currencyExchangeController)
     {
         $currencyExchangeController->updateRate();
-
     }
 }
